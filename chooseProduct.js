@@ -1,11 +1,11 @@
 function chooseProduct(segment) {
   switch (segment) {
-    case "Bebida":
+    case "Beverage":
       return "Soda";
-    case "Fruta":
-      return "Maça";
-    case "Higiente":
-      return "Sabonete";
+    case "Fruit":
+      return "Apple";
+    case "Hygiene":
+      return "Soap";
     default:
       return null;
   }
